@@ -4,8 +4,9 @@ body {
 
 
 .title {
-
+	display: inline-block;
 }
+
 
 /* NavBar */
 .navbar {
@@ -25,4 +26,10 @@ body {
 	margin: 0 1rem;
 	padding: 1rem;
 	min-width: 10%;
+}
+
+/* Logo */
+.logo {
+	max-width: 20%;
+	height: auto;
 }
