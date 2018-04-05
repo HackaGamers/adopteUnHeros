@@ -1,15 +1,7 @@
-const tabId = [] 
-for (let i = 0; i<= 50; i++) {
-		tabId[i] = i+1
-}
-	
-console.log(tabId)
-
-
  const profileHero = document.getElementById('heros')
 
 
-		fetch('https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/id/234.json')
+		fetch('https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/all.json')
 		.then(res => res.json())
 
 
