@@ -1,0 +1,17 @@
+body {
+	font-family: 'Quicksand', sans-serif;
+}
+
+/* NavBar */
+.navbar {
+	border-bottom: solid 0.6rem #DE352E;
+}
+
+.navbar ul {
+	list-style-type: none;
+
+}
+
+.navbar li {
+	display: inline-block;
+}
