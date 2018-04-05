@@ -10,6 +10,7 @@ body {
 /* NavBar */
 .navbar {
 	border-bottom: solid 0.6rem #DE352E;
+	margin: 0 0 4rem;
 }
 
 .navbar ul {
