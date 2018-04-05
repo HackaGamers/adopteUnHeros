@@ -2,6 +2,11 @@ body {
 	font-family: 'Quicksand', sans-serif;
 }
 
+
+.title {
+
+}
+
 /* NavBar */
 .navbar {
 	border-bottom: solid 0.6rem #DE352E;
@@ -9,9 +14,14 @@ body {
 
 .navbar ul {
 	list-style-type: none;
-
+	margin: 0.2rem 2rem;
+	text-align: center;
 }
 
 .navbar li {
 	display: inline-block;
+	text-align: center;
+	margin: 0 1rem;
+	padding: 1rem;
+	min-width: 10%;
 }
