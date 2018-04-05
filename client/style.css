@@ -1,14 +1,17 @@
 body {
 	font-family: 'Quicksand', sans-serif;
 }
-h1 {
-	font-family: 'Quicksand', sans-serif;
-}
 
-.title {
+.title ul {
+	list-style-type: none;
+}
+.title li {
 	display: inline-block;
 }
-
+.title h1 {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 2rem;
+}
 
 /* NavBar */
 .navbar {
