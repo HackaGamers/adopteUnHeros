@@ -6,8 +6,9 @@ h1 {
 }
 
 .title {
-
+	display: inline-block;
 }
+
 
 /* NavBar */
 .navbar {
@@ -27,4 +28,10 @@ h1 {
 	margin: 0 1rem;
 	padding: 1rem;
 	min-width: 10%;
+}
+
+/* Logo */
+.logo {
+	max-width: 20%;
+	height: auto;
 }
