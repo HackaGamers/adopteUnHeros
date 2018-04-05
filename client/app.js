@@ -1,3 +1,10 @@
+const tabId = [] 
+for (let i = 0; i<= 50; i++) {
+		tabId[i] = i+1
+}
+	
+console.log(tabId)
+
 
  const profileHero = document.getElementById('heros')
 
