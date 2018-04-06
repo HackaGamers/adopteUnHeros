@@ -30,6 +30,10 @@ const showHeros29 = document.getElementById('heros29')
 const showHeros30 = document.getElementById('heros30')
 const showHeros31 = document.getElementById('heros31')
 
+const showDetailHero1 = document.getElementById('detailHero1')
+
+
+
 const url = "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/all.json"
 
 window.fetch(url)
@@ -40,7 +44,7 @@ window.fetch(url)
 .then((res) => {
 
 
-	showHeros1.innerHTML = `<img src="${res[0].images.sm}"`
+	showHeros1.innerHTML = `<img src="${res[0].images.sm}">`
 
 
 	showHeros2.innerHTML = `<img class="myBtn" src="${res[1].images.sm}">`
@@ -76,5 +80,20 @@ window.fetch(url)
 	showHeros29.innerHTML = `<img id="myBtn" src="${res[28].images.sm}">`
 	showHeros30.innerHTML = `<img id="myBtn" src="${res[29].images.sm}">`
 	showHeros31.innerHTML = `<img id="myBtn" src="${res[30].images.sm}">`
+
+
+
+showDetailHero1.innerHTML = `<div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>${res.name}</h2>
+            <img src="http://via.placeholder.com/480x640">
+            <p> je m'appelle ${res.name} et je suis un  ${res.appearance.gender}.
+Je suis un ${res.appearance.race}, je mesure ${res.appearance.height[1]}.
+Je pèse ${res.appearance.weight[1]}. Je suis un peu gros mais confortable. 
+J'ai les yeux ${res.appearance.eyeColor}, et les cheveux ${res.appearance.hairColor}. Mon travail est ${res.work.occupation}. J'ai fait ma première apparition dans  ${res.biography.firstAppearance}</p>
+        </div>`
+
+
+
 })
 
