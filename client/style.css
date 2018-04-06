@@ -1,0 +1,40 @@
+body {
+	font-family: 'Quicksand', sans-serif;
+}
+
+.title ul {
+	list-style-type: none;
+}
+.title li {
+	display: inline-block;
+}
+.title h1 {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 2rem;
+}
+
+/* NavBar */
+.navbar {
+	border-bottom: solid 0.6rem #DE352E;
+	margin: 0 0 4rem;
+}
+
+.navbar ul {
+	list-style-type: none;
+	margin: 0.2rem 2rem;
+	text-align: center;
+}
+
+.navbar li {
+	display: inline-block;
+	text-align: center;
+	margin: 0 1rem;
+	padding: 1rem;
+	min-width: 10%;
+}
+
+/* Logo */
+.logo {
+	max-width: 20%;
+	height: auto;
+}
