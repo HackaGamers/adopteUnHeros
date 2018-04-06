@@ -81,16 +81,16 @@ body {
 /* Modal Content/Box */
 .modal-content {
     background-color: #fefefe;
-    margin: 15% auto; /* 15% from the top and centered */
-    padding: 20px;
-    border: 1px solid #888;
-    width: 45%; /* Could be more or less, depending on screen size */
+    margin: 1rem auto;
+    padding: 2rem;
+    width: 70%;
+    height: auto;
 }
 
 .modal h2{
 	text-align: center;
-	margin-top: 20px;
-	margin-bottom: 50px;
+	margin-top: 2rem;
+	margin-bottom: 5rem;
 	color:#F0141E;
 	font-family: 'Quicksand', sans-serif;
 
@@ -106,9 +106,12 @@ body {
 
 /* The Close Button */
 .close {
-    color: #aaa;
+    width: 4rem;
+	height: 4rem;
+	margin: 0 0 1rem;
+	color: #F0141E;
     float: right;
-    font-size: 28px;
+    font-size: 2.8rem;
     font-weight: bold;
 }
 
